@@ -1,0 +1,21 @@
+{
+  "name": "qcmetric_qaautomation",
+  "version": "1.0.0",
+  "description": "QCMetric QA Automation - Playwright Test Suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:requestInitiation": "npx playwright test tests/requestInitiation/",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3"
+  }
+}
